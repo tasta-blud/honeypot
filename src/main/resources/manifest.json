@@ -1,0 +1,24 @@
+{
+  "name": "HoneyPot",
+  "version": "2.2.2",
+  "description": "Allows you to change font/style; also adds cheats",
+  "author": "tasta.blud@gmail.com",
+  "homepage_url": "https://github.com/tasta-blud/HoneyPot",
+  "manifest_version": 3,
+  "permissions": [
+    "storage"
+  ],
+  "host_permissions": [
+    "file://*/*",
+    "file://*/",
+    "https://*/",
+    "https://*/*/"
+  ],
+  "icons": {
+    "16": "icons/16.png",
+    "48": "icons/48.png",
+    "128": "icons/128.png"
+  },
+  "devtools_page": "devtools.html",
+  "options_page": "options.html"
+}
